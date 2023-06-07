@@ -3,9 +3,24 @@ import Logo from '../assets/images/logo-img.svg'
 import Slides1 from '../assets/images/slides/slider-mainbg-001.jpg'
 import Slides2 from '../assets/images/slides/slider-mainbg-001.jpg'
 import Slides3 from '../assets/images/slides/slider-mainbg-002.jpg'
+import image1 from '../assets/images/testimonial/01.jpg'
+import image2 from '../assets/images/testimonial/02.jpg'
+import image3 from '../assets/images/testimonial/03.jpg'
+import blogImg1 from '../assets/images/blog/blog-02-600x430.jpg'
+import blogImg2 from '../assets/images/blog/b_thumbb-02.jpg'
+import blogImg3 from '../assets/images/blog/blog-01-600x430.jpg'
+import blogImg4 from '../assets/images/blog/blog-02-600x430.jpg'
+import blogImg5 from '../assets/images/blog/blog-03-600x430.jpg'
+import blogImg6 from '../assets/images/blog/blog-04-600x430.jpg'
+import client1 from '../assets/images/client/client-01.png'
+import client2 from '../assets/images/client/client-02.png'
+import client3 from '../assets/images/client/client-03.png'
+import client4 from '../assets/images/client/client-04.png'
+import client5 from '../assets/images/client/client-01.png'
 
 const Navbar = () => {
   return (
+
     <>
       <div className="page">
         <div id="preloader" className="blobs-wrapper">
@@ -20,7 +35,7 @@ const Navbar = () => {
                   <div className="col-lg-12">
                     <div className="site-navigation d-flex flex-row align-items-center justify-content-between">
                       <div className="site-branding ">
-                        <a
+                        {/* <a
                           className="home-link"
                           href="index.html"
                           title="Fablio"
@@ -34,7 +49,8 @@ const Navbar = () => {
                         src={Logo}
                             alt="logo-img"
                           />
-                        </a>
+                        </a> */}
+                        <h4>Hammi Textile</h4>
                       </div>
                       <div className="site-description mr-auto">
                         <h2>For tomorrow’s people.</h2>
@@ -1051,7 +1067,7 @@ const Navbar = () => {
                         <div className="testimonial-img">
                           <img
                             className="img-fluid"
-                            src="images/testimonial/01.jpg"
+                            src={image1}
                             alt="testimonial-img"
                           />
                         </div>
@@ -1097,7 +1113,7 @@ const Navbar = () => {
                         <div className="testimonial-img">
                           <img
                             className="img-fluid"
-                            src="images/testimonial/02.jpg"
+                            src={image2}
                             alt="testimonial-img"
                           />
                         </div>
@@ -1143,7 +1159,7 @@ const Navbar = () => {
                         <div className="testimonial-img">
                           <img
                             className="img-fluid"
-                            src="images/testimonial/03.jpg"
+                            src={image3}
                             alt="testimonial-img"
                           />
                         </div>
@@ -1219,8 +1235,8 @@ const Navbar = () => {
                     <div className="featured-thumbnail">
                       <img
                         className="img-fluid"
-                        src="images/blog/blog-01-600x430.jpg"
-                        alt=""
+                        src={blogImg3}
+                        alt="image"
                       />
                     </div>
                     <div className="featured-content">
@@ -1268,7 +1284,7 @@ const Navbar = () => {
                     <div className="featured-thumbnail">
                       <img
                         className="img-fluid"
-                        src="images/blog/blog-02-600x430.jpg"
+                        src={blogImg4}
                         alt=""
                       />
                     </div>
@@ -1316,7 +1332,7 @@ const Navbar = () => {
                     <div className="featured-thumbnail">
                       <img
                         className="img-fluid"
-                        src="images/blog/blog-03-600x430.jpg"
+                        src={blogImg5}
                         alt=""
                       />
                     </div>
@@ -1365,7 +1381,7 @@ const Navbar = () => {
                     <div className="featured-thumbnail">
                       <img
                         className="img-fluid"
-                        src="images/blog/blog-04-600x430.jpg"
+                        src={blogImg6}
                         alt=""
                       />
                     </div>
@@ -1429,7 +1445,7 @@ const Navbar = () => {
                           className="img-fluid auto_size"
                           width="160"
                           height="98"
-                          src="images/client/client-01.png"
+                          src={client1}
                           alt="image"
                         />
                       </div>
@@ -1447,7 +1463,7 @@ const Navbar = () => {
                           className="img-fluid auto_size"
                           width="160"
                           height="98"
-                          src="images/client/client-02.png"
+                          src={client2}
                           alt="image"
                         />
                       </div>
@@ -1465,7 +1481,7 @@ const Navbar = () => {
                           className="img-fluid auto_size"
                           width="160"
                           height="98"
-                          src="images/client/client-03.png"
+                          src={client3}
                           alt="image"
                         />
                       </div>
@@ -1483,7 +1499,7 @@ const Navbar = () => {
                           className="img-fluid auto_size"
                           width="160"
                           height="98"
-                          src="images/client/client-04.png"
+                          src={client4}
                           alt="image"
                         />
                       </div>
@@ -1501,7 +1517,7 @@ const Navbar = () => {
                           className="img-fluid auto_size"
                           width="160"
                           height="98"
-                          src="images/client/client-01.png"
+                          src={client5}
                           alt="image"
                         />
                       </div>
@@ -1687,7 +1703,7 @@ const Navbar = () => {
                         <a href="blog-single.html">
                           <img
                             className="img-fluid"
-                            src="images/blog/b_thumbb-01.jpg"
+                            src={blogImg1}
                             alt="post-img"
                           />
                         </a>
@@ -1702,7 +1718,7 @@ const Navbar = () => {
                         <a href="blog-single.html">
                           <img
                             className="img-fluid"
-                            src="images/blog/b_thumbb-02.jpg"
+                            src={blogImg2}
                             alt="post-img"
                           />
                         </a>
