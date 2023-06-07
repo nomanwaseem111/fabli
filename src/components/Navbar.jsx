@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "../assets/images/logo-img.svg";
 import Slides1 from "../assets/images/slides/slider-mainbg-001.jpg";
 import Slides2 from "../assets/images/slides/slider-mainbg-001.jpg";
 import Slides3 from "../assets/images/slides/slider-mainbg-002.jpg";
@@ -21,9 +20,12 @@ import service1 from "../assets/images/services/services-01-768x512.jpg";
 import service2 from "../assets/images/services/services-02-768x512.jpg";
 import service3 from "../assets/images/services/services-03-768x512.jpg";
 import service4 from "../assets/images/services/services-04-768x512.jpg";
+import singleImage from "../assets/images/single-img-02.jpg";
+import bgImage2 from "../assets/images/bg-image/col-bgimage-2.jpg";
 
 const Navbar = () => {
   return (
+    
     <>
       <div className="page">
         <div id="preloader" className="blobs-wrapper">
@@ -583,7 +585,7 @@ const Navbar = () => {
                     <div className="ttm_single_image-wrapper ttm_single_image_hover imagestyle-one res-991-margin_right0">
                       <img
                         className="img-fluid auto_size"
-                        src="images/single-img-02.jpg"
+                        src={singleImage}
                         alt="single-02"
                         height="663"
                         width="504"
@@ -914,7 +916,7 @@ const Navbar = () => {
                       </div>
                       <img
                         className="img-fluid ttm-equal-height-image w-100"
-                        src="images/bg-image/col-bgimage-2.jpg"
+                        src={bgImage2}
                         alt="bg-image"
                       />
                     </div>
