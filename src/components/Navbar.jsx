@@ -17,6 +17,10 @@ import client2 from "../assets/images/client/client-02.png";
 import client3 from "../assets/images/client/client-03.png";
 import client4 from "../assets/images/client/client-04.png";
 import client5 from "../assets/images/client/client-01.png";
+import service1 from "../assets/images/services/services-01-768x512.jpg";
+import service2 from "../assets/images/services/services-02-768x512.jpg";
+import service3 from "../assets/images/services/services-03-768x512.jpg";
+import service4 from "../assets/images/services/services-04-768x512.jpg";
 
 const Navbar = () => {
   return (
@@ -773,7 +777,7 @@ const Navbar = () => {
                     <div className="featured-thumbnail">
                       <img
                         className="img-fluid"
-                        src="images/services/services-01-768x512.jpg"
+                        src={service1}
                         alt="image"
                       />
                     </div>
@@ -802,7 +806,7 @@ const Navbar = () => {
                     <div className="featured-thumbnail">
                       <img
                         className="img-fluid"
-                        src="images/services/services-02-768x512.jpg"
+                        src={service2}
                         alt="image"
                       />
                     </div>
@@ -831,7 +835,7 @@ const Navbar = () => {
                     <div className="featured-thumbnail">
                       <img
                         className="img-fluid"
-                        src="images/services/services-03-768x512.jpg"
+                        src={service3}
                         alt="image"
                       />
                     </div>
@@ -860,7 +864,7 @@ const Navbar = () => {
                     <div className="featured-thumbnail">
                       <img
                         className="img-fluid"
-                        src="images/services/services-04-768x512.jpg"
+                        src={service4}
                         alt="image"
                       />
                     </div>
