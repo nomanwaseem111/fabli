@@ -1,26 +1,25 @@
 import React from "react";
-import Logo from '../assets/images/logo-img.svg'
-import Slides1 from '../assets/images/slides/slider-mainbg-001.jpg'
-import Slides2 from '../assets/images/slides/slider-mainbg-001.jpg'
-import Slides3 from '../assets/images/slides/slider-mainbg-002.jpg'
-import image1 from '../assets/images/testimonial/01.jpg'
-import image2 from '../assets/images/testimonial/02.jpg'
-import image3 from '../assets/images/testimonial/03.jpg'
-import blogImg1 from '../assets/images/blog/blog-02-600x430.jpg'
-import blogImg2 from '../assets/images/blog/b_thumbb-02.jpg'
-import blogImg3 from '../assets/images/blog/blog-01-600x430.jpg'
-import blogImg4 from '../assets/images/blog/blog-02-600x430.jpg'
-import blogImg5 from '../assets/images/blog/blog-03-600x430.jpg'
-import blogImg6 from '../assets/images/blog/blog-04-600x430.jpg'
-import client1 from '../assets/images/client/client-01.png'
-import client2 from '../assets/images/client/client-02.png'
-import client3 from '../assets/images/client/client-03.png'
-import client4 from '../assets/images/client/client-04.png'
-import client5 from '../assets/images/client/client-01.png'
+import Logo from "../assets/images/logo-img.svg";
+import Slides1 from "../assets/images/slides/slider-mainbg-001.jpg";
+import Slides2 from "../assets/images/slides/slider-mainbg-001.jpg";
+import Slides3 from "../assets/images/slides/slider-mainbg-002.jpg";
+import image1 from "../assets/images/testimonial/01.jpg";
+import image2 from "../assets/images/testimonial/02.jpg";
+import image3 from "../assets/images/testimonial/03.jpg";
+import blogImg1 from "../assets/images/blog/blog-02-600x430.jpg";
+import blogImg2 from "../assets/images/blog/b_thumbb-02.jpg";
+import blogImg3 from "../assets/images/blog/blog-01-600x430.jpg";
+import blogImg4 from "../assets/images/blog/blog-02-600x430.jpg";
+import blogImg5 from "../assets/images/blog/blog-03-600x430.jpg";
+import blogImg6 from "../assets/images/blog/blog-04-600x430.jpg";
+import client1 from "../assets/images/client/client-01.png";
+import client2 from "../assets/images/client/client-02.png";
+import client3 from "../assets/images/client/client-03.png";
+import client4 from "../assets/images/client/client-04.png";
+import client5 from "../assets/images/client/client-01.png";
 
 const Navbar = () => {
   return (
-
     <>
       <div className="page">
         <div id="preloader" className="blobs-wrapper">
@@ -28,29 +27,17 @@ const Navbar = () => {
         </div>
 
         <header id="masthead" className="header ttm-header-style-01">
-          <div id="site-header-menu" className="site-header-menu ttm-bgcolor-white">
+          <div
+            id="site-header-menu"
+            className="site-header-menu ttm-bgcolor-white"
+          >
             <div className="site-header-menu-inner ttm-stickable-header">
               <div className="container">
                 <div className="row">
                   <div className="col-lg-12">
                     <div className="site-navigation d-flex flex-row align-items-center justify-content-between">
                       <div className="site-branding ">
-                        {/* <a
-                          className="home-link"
-                          href="index.html"
-                          title="Fablio"
-                          rel="home"
-                        >
-                          <img
-                            id="logo-img"
-                            height="35"
-                            width="130"
-                            className="img-fluid auto_size"
-                        src={Logo}
-                            alt="logo-img"
-                          />
-                        </a> */}
-                        <h4>Hammi Textile</h4>
+                        <h4 style={{ marginTop: "10px" }}>Hammi Textile</h4>
                       </div>
                       <div className="site-description mr-auto">
                         <h2>For tomorrow’s people.</h2>
@@ -252,9 +239,8 @@ const Navbar = () => {
           </div>
           <div className="banner_slider banner_slider_wide">
             <div className="slide">
-              <img  className="slide_img" src={Slides1} alt="slides" />
-              <img className="slide_img" src={Slides2} alt="slides"  />
-
+              <img className="slide_img" src={Slides1} alt="slides" />
+              <img className="slide_img" src={Slides2} alt="slides" />
 
               <div className="slide__content">
                 <div className="container">
@@ -296,8 +282,8 @@ const Navbar = () => {
               </div>
             </div>
             <div className="slide">
-              <img  className="slide_img" src={Slides3} alt="slides" />
-     
+              <img className="slide_img" src={Slides3} alt="slides" />
+
               <div className="slide__content">
                 <div className="container">
                   <div className="row">
@@ -614,7 +600,9 @@ const Navbar = () => {
                     <div className="title-header">
                       <h2 className="title">
                         The Textile,Product, And Apparel{" "}
-                        <b className="ttm-textcolor-skincolor">Manufacturing </b>
+                        <b className="ttm-textcolor-skincolor">
+                          Manufacturing{" "}
+                        </b>
                         Industries.
                       </h2>
                     </div>
@@ -1000,7 +988,10 @@ const Navbar = () => {
                           </div>
                           <div className="ttm-horizontal_sep width-100 margin_top20 margin_bottom20"></div>
                           <div className="padding_top15">
-                            <div className="ttm-progress-bar" data-percent="90%">
+                            <div
+                              className="ttm-progress-bar"
+                              data-percent="90%"
+                            >
                               <div className="progressbar-title">Textile</div>
                               <div className="progress-bar-inner">
                                 <div className="progress-bar progress-bar-color-bar_skincolor">
@@ -1018,7 +1009,9 @@ const Navbar = () => {
                               className="ttm-progress-bar clearfix"
                               data-percent="80%"
                             >
-                              <div className="progressbar-title">Manufacture</div>
+                              <div className="progressbar-title">
+                                Manufacture
+                              </div>
                               <div className="progress-bar-inner">
                                 <div className="progress-bar progress-bar-color-bar_skincolor">
                                   <div
@@ -1233,11 +1226,7 @@ const Navbar = () => {
                 <div className="col-lg-4">
                   <div className="featured-imagebox featured-imagebox-post style1">
                     <div className="featured-thumbnail">
-                      <img
-                        className="img-fluid"
-                        src={blogImg3}
-                        alt="image"
-                      />
+                      <img className="img-fluid" src={blogImg3} alt="image" />
                     </div>
                     <div className="featured-content">
                       <div className="ttm-box-post-date">
@@ -1246,7 +1235,8 @@ const Navbar = () => {
                             className="entry-date"
                             datetime="2021-03-18T04:16:25+00:00"
                           >
-                            18<span className="entry-month entry-year">Mar</span>
+                            18
+                            <span className="entry-month entry-year">Mar</span>
                           </time>
                         </span>
                       </div>
@@ -1282,11 +1272,7 @@ const Navbar = () => {
                 <div className="col-lg-4">
                   <div className="featured-imagebox featured-imagebox-post style1">
                     <div className="featured-thumbnail">
-                      <img
-                        className="img-fluid"
-                        src={blogImg4}
-                        alt=""
-                      />
+                      <img className="img-fluid" src={blogImg4} alt="" />
                     </div>
                     <div className="featured-content">
                       <div className="ttm-box-post-date">
@@ -1295,7 +1281,8 @@ const Navbar = () => {
                             className="entry-date"
                             datetime="2021-02-28T04:15:42+00:00"
                           >
-                            28<span className="entry-month entry-year">Feb</span>
+                            28
+                            <span className="entry-month entry-year">Feb</span>
                           </time>
                         </span>
                       </div>
@@ -1330,11 +1317,7 @@ const Navbar = () => {
                 <div className="col-lg-4">
                   <div className="featured-imagebox featured-imagebox-post style1">
                     <div className="featured-thumbnail">
-                      <img
-                        className="img-fluid"
-                        src={blogImg5}
-                        alt=""
-                      />
+                      <img className="img-fluid" src={blogImg5} alt="" />
                     </div>
                     <div className="featured-content">
                       <div className="ttm-box-post-date">
@@ -1343,7 +1326,8 @@ const Navbar = () => {
                             className="entry-date"
                             datetime="2021-02-15T04:15:25+00:00"
                           >
-                            15<span className="entry-month entry-year">Feb</span>
+                            15
+                            <span className="entry-month entry-year">Feb</span>
                           </time>
                         </span>
                       </div>
@@ -1379,11 +1363,7 @@ const Navbar = () => {
                 <div className="col-lg-4">
                   <div className="featured-imagebox featured-imagebox-post style1">
                     <div className="featured-thumbnail">
-                      <img
-                        className="img-fluid"
-                        src={blogImg6}
-                        alt=""
-                      />
+                      <img className="img-fluid" src={blogImg6} alt="" />
                     </div>
                     <div className="featured-content">
                       <div className="ttm-box-post-date">
@@ -1392,7 +1372,8 @@ const Navbar = () => {
                             className="entry-date"
                             datetime="2021-02-11T04:12:56+00:00"
                           >
-                            11<span className="entry-month entry-year">Feb</span>
+                            11
+                            <span className="entry-month entry-year">Feb</span>
                           </time>
                         </span>
                       </div>
@@ -1741,8 +1722,8 @@ const Navbar = () => {
                         4789 Melmorn Street,Zakila Ton Mashintron Town
                       </li>
                       <li>
-                        <i className="ttm-textcolor-skincolor fa fa-phone"></i>(+01)
-                        123 456 7890
+                        <i className="ttm-textcolor-skincolor fa fa-phone"></i>
+                        (+01) 123 456 7890
                       </li>
                       <li>
                         <i className="ttm-textcolor-skincolor fa fa-envelope-o"></i>
@@ -1783,7 +1764,10 @@ const Navbar = () => {
                           type="submit"
                         >
                           Subscribe us
-                          <i className="fa fa-caret-right" aria-hidden="true"></i>
+                          <i
+                            className="fa fa-caret-right"
+                            aria-hidden="true"
+                          ></i>
                         </button>
                       </div>
                       <div id="subscribe-msg"></div>
