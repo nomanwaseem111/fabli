@@ -1,8 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Slides1 from "../assets/images/slides/slider-mainbg-001.jpg";
+import Slides2 from "../assets/images/slides/slider-mainbg-001.jpg";
+import Slides3 from "../assets/images/slides/slider-mainbg-002.jpg";
+import Banner from "./Banner";
 
 const Header = () => {
   return (
-    <>
+    <div>
       <div id="preloader" className="blobs-wrapper">
         <div className="ttm-bgcolor-skincolor loader-blob"></div>
       </div>
@@ -32,9 +37,9 @@ const Header = () => {
                       <nav className="main-menu menu-mobile" id="menu">
                         <ul className="menu">
                           <li className="mega-menu-item active">
-                            <a href="#" className="mega-menu-link">
+                            <Link to="/" className="mega-menu-link">
                               Home
-                            </a>
+                            </Link>
                             <ul className="mega-submenu">
                               <li className="active">
                                 <a href="index.html">Homepage 1</a>
@@ -48,9 +53,10 @@ const Header = () => {
                             </ul>
                           </li>
                           <li className="mega-menu-item">
-                            <a href="#" className="mega-menu-link">
+                            {/* <a href="#" className="mega-menu-link">
                               Pages
-                            </a>
+                            </a> */}
+                            <Link to="/about">About</Link>
                             <ul className="mega-submenu">
                               <li>
                                 <a href="about-us.html">About Us 1</a>
@@ -75,6 +81,7 @@ const Header = () => {
                               </li>
                             </ul>
                           </li>
+
                           <li className="mega-menu-item">
                             <a href="#" className="mega-menu-link">
                               Services
@@ -139,7 +146,7 @@ const Header = () => {
                             </ul>
                           </li>
                           <li className="mega-menu-item">
-                            <a href="contact-us.html">Contact us</a>
+                            <Link to="/contact">Contact us</Link>
                           </li>
                         </ul>
                       </nav>
@@ -182,7 +189,7 @@ const Header = () => {
           </div>
         </div>
       </header>
-    </>
+    </div>
   );
 };
 

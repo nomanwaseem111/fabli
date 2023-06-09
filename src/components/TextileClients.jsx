@@ -142,6 +142,8 @@ const TextileClients = () => {
           </div>
         </div>
       </section>
+
+   
     </>
   );
 };

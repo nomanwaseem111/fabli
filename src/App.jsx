@@ -1,15 +1,25 @@
 import React from "react";
-import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import MainSection from "./components/MainSection";
+
+import About from "./components/About";
+import { Routes, Route } from "react-router-dom";
+import Home from "./Pages/Home";
 
 const App = () => {
+ 
+
+ 
   return (
     <div className="page">
       <Header />
-      <Banner />
-      <MainSection />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+
+      </Routes>
+
+      
       <Footer />
     </div>
   );

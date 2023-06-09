@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Slides1 from "../assets/images/slides/slider-mainbg-001.jpg";
 import Slides2 from "../assets/images/slides/slider-mainbg-001.jpg";
 import Slides3 from "../assets/images/slides/slider-mainbg-002.jpg";
@@ -76,6 +76,7 @@ const Banner = () => {
               </div>
             </div>
           </div>
+
           <div className="slide">
             <img className="slide_img" src={Slides3} alt="slides" />
 
