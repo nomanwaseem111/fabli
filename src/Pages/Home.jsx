@@ -17,11 +17,11 @@ const Home = () => {
      <div className="site-main">
 
         <Banner />
-        <TextileFeatures />
+      <TextileFeatures /> 
 
-        <TextileHistory />
+       <TextileHistory /> 
 
-        <TextileNumbers />
+      <TextileNumbers />
 
         <TextileServices />
 
@@ -29,9 +29,9 @@ const Home = () => {
 
         <Testimonials />
 
-        <Blog />
+<Blog />
 
-        <TextileClients />
+        <TextileClients /> 
       </div> 
     </>
   )

@@ -183,6 +183,8 @@ input[type="color"]:focus {
 
 
 
+
+
 /* clears the 'X' from Internet Explorer */
 input[type=search]::-ms-clear {  display: none; width : 0; height: 0; }
 input[type=search]::-ms-reveal {  display: none; width : 0; height: 0; }
@@ -244,6 +246,7 @@ body .page.sidebar-true .site-main{
 }
 .container {
     max-width: 1230px;
+
     
 }
 a{ color: #222d35; }
@@ -1182,6 +1185,8 @@ a.ttm-btn.ttm-btn-style-fill.ttm-btn-color-white:hover,
     justify-content: center;
     background: #fff;
 }
+
+
 .loader-blob {
     width: 49px;
     height: 49px;
@@ -3002,3 +3007,5 @@ section.error-404 .page-content p { font-size: 18px; margin-bottom: 30px; }
 /*  Map
 /*------------------------------------------------------------------------------*/   
 #map { display: block; height: 550px; width: 100%; }
+
+

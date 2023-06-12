@@ -2862,6 +2862,7 @@ nav.main-menu .megamenu-content .title {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
   transition: all 1s ease;
+  
 }
 .slide .slide__content {
   position: relative;
@@ -2870,6 +2871,8 @@ nav.main-menu .megamenu-content .title {
   z-index: 2;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 150px;
+ 
 }
 .slide .slide__content--headings {
   padding: 15px 0;
@@ -3181,6 +3184,7 @@ nav.main-menu .megamenu-content .title {
   height: 100%;
   background-position: center;
   background-size: cover;
+  
 }
 .slick-active .slide_img {
   -webkit-animation-delay: 24s;
