@@ -2,6 +2,7 @@ import React from "react";
 import blogImg1 from "../assets/images/blog/blog-02-600x430.jpg";
 import blogImg2 from "../assets/images/blog/b_thumbb-02.jpg";
 import FooterLogo from "../assets/images/footer-logo.svg";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
@@ -249,10 +250,10 @@ const Footer = () => {
                   </span>
                   <ul className="footer-nav-menu">
                     <li>
-                      <a href="about-us.html">About Us</a>
+                      <Link to="/about">About Us</Link>
                     </li>
                     <li>
-                      <a href="contact-us.html">Contact Us</a>
+                      <Link to="/contact">Contact Us</Link>
                     </li>
                   </ul>
                 </div>
