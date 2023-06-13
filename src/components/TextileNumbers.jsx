@@ -1,9 +1,10 @@
 import React from "react";
+import Slides1 from '../assets/images/slides/slider-mainbg-001.jpg'
 
 const TextileNumbers = () => {
   return (
     <>
-      <section className="ttm-row fid-section ttm-bgimage-yes bg-img1 ttm-bg ttm-bgcolor-darkgrey clearfix">
+      <section  style={{backgroundImage:`url(${Slides1})`,backgroundSize:"cover",backgroundPosition:"center"}} className="ttm-row fid-section ttm-bgimage-yes bg-img1 ttm-bg ttm-bgcolor-darkgrey clearfix">
         <div className="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
         <div className="container">
           <div className="row">

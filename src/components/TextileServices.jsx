@@ -3,15 +3,16 @@ import service1 from "../assets/images/services/services-01-768x512.jpg";
 import service2 from "../assets/images/services/services-02-768x512.jpg";
 import service3 from "../assets/images/services/services-03-768x512.jpg";
 import service4 from "../assets/images/services/services-04-768x512.jpg";
+import bgImage1 from '../assets/images/bg-image/col-bgimage-1.jpg'
 const TextileServices = () => {
   return (
     <>
       <section className="ttm-row padding_zero-section clearfix">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="ttm-bg ttm-col-bgcolor-yes ttm-bg ttm-col-bgimage-yes col-bg-img-one ttm-left-span spacing-2">
-                <div className="ttm-col-wrapper-bg-layer ttm-bg-layer">
+        <div className="container" >
+          <div className="row" >
+            <div className="col-lg-12 " >  
+              <div style={{backgroundImage:`url(${bgImage1})`}} className="ttm-bg ttm-col-bgcolor-yes ttm-bg ttm-col-bgimage-yes col-bg-img-one ttm-left-span spacing-2">
+                <div className="ttm-col-wrapper-bg-layer ttm-bg-layer" style={{backgroundImage:`url(${bgImage1})`}}>
                   <div className="ttm-col-wrapper-bg-layer-inner"></div>
                 </div>
                 <div className="layer-content">

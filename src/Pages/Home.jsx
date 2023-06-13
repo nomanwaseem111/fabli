@@ -1,27 +1,24 @@
-import React from 'react'
-import Banner from '../components/Banner'
-import Blog from '../components/Blog'
-import Testimonials from '../components/Testimonials'
-import TextileClients from '../components/TextileClients'
-import TextileFeatures from '../components/TextileFeatures'
-import TextileHistory from '../components/TextileHistory'
-import TextileNumbers from '../components/TextileNumbers'
-import TextileProgress from '../components/TextileProgress'
-import TextileServices from '../components/TextileServices'
+import React from "react";
+import Banner from "../components/Banner";
+import Blog from "../components/Blog";
+import Testimonials from "../components/Testimonials";
+import TextileClients from "../components/TextileClients";
+import TextileFeatures from "../components/TextileFeatures";
+import TextileHistory from "../components/TextileHistory";
+import TextileNumbers from "../components/TextileNumbers";
+import TextileProgress from "../components/TextileProgress";
+import TextileServices from "../components/TextileServices";
 
 const Home = () => {
-  
-  
-    return (
+  return (
     <>
-     <div className="site-main">
-
+      <div className="site-main">
         <Banner />
-      <TextileFeatures /> 
+        <TextileFeatures />
 
-       <TextileHistory /> 
+        <TextileHistory />
 
-      <TextileNumbers />
+        <TextileNumbers />
 
         <TextileServices />
 
@@ -29,12 +26,12 @@ const Home = () => {
 
         <Testimonials />
 
-<Blog />
+        <Blog />
 
-        <TextileClients /> 
-      </div> 
+        <TextileClients />
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

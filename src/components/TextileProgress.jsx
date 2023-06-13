@@ -4,23 +4,19 @@ import bgImage2 from "../assets/images/bg-image/col-bgimage-2.jpg";
 const TextileProgress = () => {
   return (
     <>
-      <section className="ttm-row padding_zero-section ttm-bgcolor-skincolor bg-layer-equal-height clearfix">
+      <section  className="ttm-row padding_zero-section ttm-bgcolor-skincolor bg-layer-equal-height clearfix">
         <div className="container">
-          <div className="row no-gutters">
-            <div className="col-lg-12">
-              <div className="row">
-                <div className="col-lg-7 col-md-12">
+          <div className="row no-gutters" >
+            <div className="col-lg-12" > 
+              <div className="row" >
+                <div className="col-lg-7 col-md-12" >
                   <div className="ttm-bg ttm-col-bgimage-yes col-bg-img-two ttm-left-span z-index-2">
-                    <div className="ttm-col-wrapper-bg-layer ttm-bg-layer"></div>
+                    <div className="ttm-col-wrapper-bg-layer ttm-bg-layer" style={{backgroundImage:`url(${bgImage2})`,backgroundSize:"cover",backgroundPosition:"center" }}></div>
                     <div className="layer-content"></div>
                   </div>
-                  <img
-                    className="img-fluid ttm-equal-height-image w-100"
-                    src={bgImage2}
-                    alt="bg-image"
-                  />
+                 
                 </div>
-                <div className="col-lg-5">
+                <div className="col-lg-5" >
                   <div className="padding_top30 padding_bottom30 text-lg-right res-1199-padding_right15 res-991-padding_left15">
                     <div className="fs-26">
                       Fablio is Operating In The Textile

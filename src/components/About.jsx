@@ -12,7 +12,7 @@ const About = () => {
   return (
     <>
     
-      <div class="ttm-page-title-row ttm-bg ttm-bgimage-yes ttm-bgcolor-darkgrey clearfix">
+      <div style={{backgroundImage:`url(${bgImage})`}} class="ttm-page-title-row ttm-bg ttm-bgimage-yes ttm-bgcolor-darkgrey clearfix">
         <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
         <div class="container">
           <div class="row align-items-center">
