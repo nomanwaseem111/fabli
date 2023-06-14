@@ -2975,6 +2975,11 @@ nav.main-menu .megamenu-content .title {
 }
 
 @media only screen and (max-width: 1200px) {
+  .slide__content--headings {
+    margin-bottom: 50px;
+   
+  }
+
   .lg-hide {
     display: none;
   }

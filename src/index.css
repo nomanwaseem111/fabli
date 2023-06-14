@@ -4048,3 +4048,14 @@ section.error-404 .page-content p {
   height: 550px;
   width: 100%;
 }
+
+
+#bgImg {
+
+    background-image: url(./assets/images/slides/slider-mainbg-001.jpg);
+}
+
+#bgImg1 {
+    background-image: url(./assets/images/slides/slider-mainbg-002.jpg);
+
+}

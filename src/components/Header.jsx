@@ -40,17 +40,6 @@ const Header = () => {
                             <Link to="/" className="mega-menu-link">
                               Home
                             </Link>
-                            <ul className="mega-submenu">
-                              <li className="active">
-                                <a href="index.html">Homepage 1</a>
-                              </li>
-                              <li>
-                                <a href="home-2.html">Homepage 2</a>
-                              </li>
-                              <li>
-                                <a href="home-3.html">Homepage 3</a>
-                              </li>
-                            </ul>
                           </li>
                           <li className="mega-menu-item">
                             {/* <a href="#" className="mega-menu-link">
@@ -59,25 +48,17 @@ const Header = () => {
                             <Link to="/about">About</Link>
                             <ul className="mega-submenu">
                               <li>
-                                <a href="about-us.html">About Us 1</a>
+                                <Link to="/services">Services</ Link>
+                              </li>
+
+                              <li>
+                                <Link to="/our-team">Our Team</Link>
                               </li>
                               <li>
-                                <a href="about-us-2.html">About Us 2</a>
+                                <Link to="/team-details">Team Details</Link>
                               </li>
                               <li>
-                                <a href="services-1.html">Services 1</a>
-                              </li>
-                              <li>
-                                <a href="services-2.html">Services 2</a>
-                              </li>
-                              <li>
-                                <a href="our-team.html">Our Team</a>
-                              </li>
-                              <li>
-                                <a href="team-details.html">Team Details</a>
-                              </li>
-                              <li>
-                                <a href="error.html">Error Page</a>
+                                <Link to="/error">Error Page</ Link>
                               </li>
                             </ul>
                           </li>
@@ -117,17 +98,6 @@ const Header = () => {
                             <a href="#" className="mega-menu-link">
                               Projects
                             </a>
-                            <ul className="mega-submenu">
-                              <li>
-                                <a href="project-style-01.html">Project One</a>
-                              </li>
-                              <li>
-                                <a href="project-style-02.html">Project Two</a>
-                              </li>
-                              <li>
-                                <a href="linen-fabric.html">Project Single</a>
-                              </li>
-                            </ul>
                           </li>
                           <li className="mega-menu-item">
                             <a href="#" className="mega-menu-link">

@@ -349,37 +349,7 @@ $(document).ready(function(e) {
 
 
     
-/*------------------------------------------------------------------------------*/
-/* Prettyphoto
-/*------------------------------------------------------------------------------*/
-    $(function () {
 
-         // Normal link
-        jQuery('a[href*=".jpg"], a[href*=".jpeg"], a[href*=".png"], a[href*=".gif"]').each(function(){
-            if( jQuery(this).attr('target')!='_blank' && !jQuery(this).hasClass('prettyphoto') && !jQuery(this).hasClass('modula-lightbox') ){
-                var attr = $(this).attr('data-gal');
-                if (typeof attr !== typeof undefined && attr !== false && attr!='prettyPhoto' ) {
-                    jQuery(this).attr('data-rel','prettyPhoto');
-                }
-            }
-        });     
-
-        jQuery('a[data-gal^="prettyPhoto"]').prettyPhoto();
-        jQuery('a.ttm_prettyphoto').prettyPhoto();
-        jQuery('a[data-gal^="prettyPhoto"]').prettyPhoto();
-        jQuery("a[data-gal^='prettyPhoto']").prettyPhoto({hook: 'data-gal'})
-
-    });
-    $(document).ready(function() {
-    var e = '<div class="prt_floting_customsett">'+
-                '<a href="https://support.preyantechnosys.com/" class="tmtheme_fbar_icons"><i class="fa fa-headphones"></i><span>Support</span></a>'+
-                '<a href="https://preyantechnosys.com/" class="tmtheme_fbar_icons"><i class="themifyicon themifyicon ti-pencil"></i><span>Customization</span></a>'+
-                '<a href="https://1.envato.market/yRqL9D" class="tmtheme_fbar_icons"><i class="themifyicon ti-shopping-cart"></i><span class="buy_link">Buy<span></span></span></a>'+
-                '<div class="clearfix"></div>'+
-            '</div>';
-
-    $('body').append(e);
-}); 
     
 
 /*------------------------------------------------------------------------------*/

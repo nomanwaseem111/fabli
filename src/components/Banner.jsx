@@ -6,12 +6,6 @@ import Slider from "react-slick";
 import Carousel from "react-bootstrap/Carousel";
 
 const Banner = () => {
-  const settings = {
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
   return (
     <>
       <div className="banner_slider_wrapper">
@@ -43,19 +37,17 @@ const Banner = () => {
           </ul>
         </div>
         <div className="banner_slider banner_slider_wide">
-          <Carousel fade={true} indicators={false}>
+          <Carousel fade={true} indicators={false} nextLabel="" prevLabel="">
             <Carousel.Item interval={2000}>
               <div
                 className="w-100 d-flex flex-column justify-content-center align-items-center"
                 style={{
                   backgroundImage: `url(${Slides1})`,
-                  backgroundPosition: "center center",
-                  backgroundRepeat: "no-repeat",
-                  backgroundSize: "cover",
+
                   height: "750px",
                 }}
               >
-                <div className="container">
+                <div className="container content-container">
                   <div className="row">
                     <div className="col-lg-12">
                       <div className="slide__content--headings ttm-textcolor-white text-center">

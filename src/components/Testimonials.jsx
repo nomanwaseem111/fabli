@@ -27,7 +27,7 @@ const Testimonials = () => {
           </div>
           <div className="row">
             <div className="col-xl-12 col-lg-6 m-auto" style={{height:"450px",width:"400px",display:"flex",alignItems:"center"}} >
-              <Carousel indicators={false}>
+              <Carousel indicators={false} >
                 <Carousel.Item className="main_container">
                   <div className="testimonials ttm-testimonial-box-view-style1">
                     <div className="testimonial-avatar">
