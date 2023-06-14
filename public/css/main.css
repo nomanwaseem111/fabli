@@ -3037,13 +3037,29 @@ nav.main-menu .megamenu-content .title {
   }
 }
 
+@media only screen and (max-width:992px) {
+    .slide__content--headings{
+        /* background-color: red; */
+        margin-bottom: 100px;
+      }
+}
+
+
+
 @media only screen and (max-width: 991px) {
   .md-hide {
     display: none;
   }
+
+  .slide__content--headings{
+    /* background-color: red; */
+    margin-bottom: 300px;
+  }
+
   .slide .slide__content--headings h2 {
     font-size: 34px;
     line-height: 40px;
+    
   }
 
   .banner_slider_2 .slide .slide__content--headings h2.border_text {
@@ -3118,6 +3134,12 @@ nav.main-menu .megamenu-content .title {
 }
 
 @media only screen and (max-width: 600px) {
+
+    .slide__content--headings{
+        /* background-color: yellow; */
+        margin-bottom: 420px !important;
+    }
+
   .banner_slider .slide {
     height: 320px;
   }
